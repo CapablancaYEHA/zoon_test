@@ -8,7 +8,8 @@ const CardsContainer = styled.div`
   flex-flow: row wrap;
   justify-content: center;
   min-height: 50px;
-  background-color: red;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 `;
 
 export {

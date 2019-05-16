@@ -1,12 +1,17 @@
 import * as React from 'react';
 
 import {
-  CardBody
+  CardBody,
+  CardInfo,
+  CardCaption
 } from "./Card.styled";
 
-const Card = () => (
-    <CardBody>
-    "kek"
+import {ControlCardType} from "../../types";
+
+const Card = ({ bgIcon, info, caption}:ControlCardType) => (
+    <CardBody bgIcon={bgIcon}>
+      <CardInfo>{info}</CardInfo>
+      <CardCaption>{caption}</CardCaption>
     </CardBody>
 );
 

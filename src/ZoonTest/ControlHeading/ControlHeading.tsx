@@ -6,11 +6,14 @@ import {
   CardsContainer
 } from "./ControlHeading.styled";
 
-
+import {cardsArray} from "./constants/cardsArray";
 
 const ControlHeading = () => (
     <CardsContainer>
-      <Card /><Card /><Card /><Card />
+      {cardsArray.map((card, i: number) => (
+        <Card key={i} bgIcon={card.bgIcon} info={card.info} caption={card.caption} />
+      ))}
+
     </CardsContainer>
 );
 

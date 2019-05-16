@@ -32,7 +32,7 @@ html {
  box-sizing: inherit;
 }
 body {
-  width:100%;min-height:100%;margin:0;padding:0;background-color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-flow:column wrap;flex-flow:column wrap;-webkit-box-align:space-between;-ms-flex-align:space-between;align-items:space-between;position:relative
+  width:100%;min-height:100%;margin:0;padding:0;background-color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-flow:column wrap;flex-flow:column wrap;position:relative
 }
 ol, ul {
  list-style: none;

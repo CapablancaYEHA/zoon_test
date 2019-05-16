@@ -4,7 +4,7 @@ const Container = styled.div`
   box-sizing: border-box;
   position: relative;
   max-width: 1214px;
-  min-height: 5px;
+  min-height: 100vh;
   height: 100%;
   margin: 0 auto;
   padding: 15px;
