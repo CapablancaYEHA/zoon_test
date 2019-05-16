@@ -33,13 +33,38 @@ const PlaygroundContainer = styled.div<{ isActive: boolean }>`
     `}
   }
 
-  @media (max-width: 640px) {
-    min-height: 236px;
-    padding: 15px 40px 15px 29px;
+  &:nth-child(2){
+    @media (max-width: 602px) {
+      min-height: 216px;
+      padding: 15px 40px 15px 29px;
+    }
+    @media (max-width: 451px) {
+      min-height: 224px;
+      padding: 15px 40px 15px 29px;
+    }
+    @media (max-width: 372px) {
+      min-height: 272px;
+      padding: 15px 40px 15px 29px;
+    }
   }
-  @media (max-width: 510px) {
-    min-height: 272px;
-    padding: 15px 40px 15px 29px;
+
+  &:nth-child(3) {
+    @media (max-width: 602px) {
+      min-height: 216px;
+      padding: 15px 40px 15px 29px;
+    }
+    @media (max-width: 413px) {
+      min-height: 272px;
+      padding: 15px 40px 15px 29px;
+    }
+  }
+
+  &:nth-child(4) {
+    @media (max-width: 456px) {
+      min-height: 182px;
+      padding: 15px 40px 15px 29px;
+    }
+
   }
 `;
 
